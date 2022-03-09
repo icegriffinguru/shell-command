@@ -1,0 +1,17 @@
+[package]
+name = "shell-command-meta"
+version = "0.0.0"
+edition = "2018"
+publish = false
+authors = [ "you",]
+
+[dev-dependencies]
+
+[dependencies.shell-command]
+path = ".."
+
+[dependencies.elrond-wasm]
+version = "0.29.3"
+
+[dependencies.elrond-wasm-debug]
+version = "0.29.3"
